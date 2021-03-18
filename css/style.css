@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-group-append > button {
+    background-color:aquamarine;
+}
+.margin_design {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.my_bg {
+background:#fceae8;
+border-radius:10px;
+}
+.carousel-item {
+    padding:20px 40px;
+}
+.price {
+    color:#ff136f;
+}
+.my_btn {
+    background:linear-gradient(to bottom , #ff589b 0%, #ff136f 100%);
+    color:#fff;
+    border-radius:8px;
+    padding:9px 25px;
+    cursor:pointer;
+    border:none;
+    margin-top:15px;
+}
+.cat1, .cat2, .cat3{
+    padding:10px 30px;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top:30px;
+}
+.cat1 {
+    background-color:orange;
+}
+.cat2 {
+    background-color:orchid;
+}
+.cat3 {
+    background-color:blue;
+}
+.categories h1 {
+    color:#fff;
+}
+.categories img {
+    width:100px;
+}
+.categories {
+    margin-bottom:100px;
+}
+.card {
+    box-shadow:5px 5px 10px lightgray;
+    border: none;
+    border-radius: 100px;
+
+}
+.bags_area {
+    margin-top:100px;
+}
+.card-footer {
+    background-color:red;
+    border-top:none;
+    box-shadow:5px 5px 10px lightgray;
+    border: none;
+    border-radius: 100px;
+  
+}
+#subscribe {
+    height:300px;
+    margin-top:100px;
+}

@@ -13,8 +13,200 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-            <h1>this is my first website</h1>
-    </div>
+
+     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+                <a href=""><img src="img/logo.png" alt="" class="navbar-brand"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#call">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+           <div class="collapse navbar-collapse" id="call">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a href="" class="nav-link active">Home</a> </li>
+                <li class="nav-item"><a href="" class="nav-link">Services</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#shoce">Fetures</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Pricing</a> </li>
+                <li class="nav-item"><a class="nav-link" href="">Contact us</a></li>
+            </ul>
+            <form action="" class="form-group form-inline">
+                <input type="search" class="form-control" placeholder="Search-Panda">
+                <div class="input-group-append">
+                        <button class="btn btn-success input-group-text">Search</button>
+                </div>
+            </form>
+           </div>
+        </div>
+     </nav>
+    
+     <section class="margin_design">
+        <div class="container">
+         <div class="carousel slide my_bg" id="slider" data-ride="carousel" >
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+               <div class="row align-items-center" >
+                <div class="col-md-7">
+                <h1>New LED Tv for sports </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatibus facere adipisci harum assumenda quo deserunt accusamus, excepturi corporis dolor?</p>
+                <h2 class="price">$2000</h2>
+                <button class="my_btn">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/banner-images/tv.png" alt="" class="d-block img-fluid">
+                </div>
+               </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>New Headphones for music play </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatibus facere adipisci harum assumenda quo deserunt accusamus, excepturi corporis dolor?</p>
+                        <h2 class="price">$300</h2>
+                        <button class="my_btn">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-images/headphone.png" alt="" class="d-block img-fluid">
+                    </div>
+                   </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                     <div class="col-md-7">
+                        <h1>New x-box for your hoem </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatibus facere adipisci harum assumenda quo deserunt accusamus, excepturi corporis dolor?</p>
+                        <h2 class="price">$600</h2>
+                        <button class="my_btn">Buy Now</button>
+                     </div>
+                     <div class="col-md-5">
+                         <img src="img/banner-images/xbox.png" alt="" class="d-block img-fluid">
+                     </div>
+                    </div>
+                 </div>
+            </div>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+         </div>
+        </div>
+     </section>
+     <section>
+            <div class="container categories">
+                <div class="row">
+                    <div class="col-md-4">
+                      <div class="d-flex justify-content-center align-items-center cat1">
+                        <h1>Watch</h1>
+                        <img src="img/categories/watch.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex justify-content-center align-items-center cat2">
+                            <h1>Bag</h1>
+                        <img src="img/categories/bag.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="d-flex justify-content-center align-items-center cat3">
+                           <h1>Shoes</h1>
+                       <img src="img/categories/shoes.png" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+
+     <section>
+     <div class="container">
+         <h1>Shoes </h1>
+        <div class="card-deck" id="shoce">
+            <div class="card">
+                <img src="img/shoes/shoe-1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5>Supply 350 </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing Lorem ipsum dolor sit amet. </p>
+                  <h5>$120</h5>
+                  <button class="my_btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shoes/shoe-2.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5>Nike 360 </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet </p>
+                    <h5>$330</h5>
+                    <button class="my_btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shoes/shoe-3.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5>Red Air-MAx</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet. </p>
+                   <h5>$350</h5>
+                   <button class="my_btn">Buy Now</button>
+                </div>
+            </div>
+         </div>
+     </div>
+     </section>
+
+     <section class="bags_area">
+        <div class="container">
+            <h1>Bags </h1>
+           <div class="card-deck" id="shoce">
+               <div class="card">
+                   <img src="img/bags/bag-1.png" class="card-img-top" alt="">
+                   <div class="card-body">
+                       <h5> Red Backpack</h5>
+                       <h5>$120</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing Lorem ipsum dolor sit amet. </p>
+                   </div>
+                   <div class="card-footer">
+                    <button class="my_btn">Buy Now</button>
+                   </div>
+               </div>
+               <div class="card">
+                   <img src="img/bags/bag-2.png" class="card-img-top" alt="">
+                   <div class="card-body">
+                       <h5>Blue Backpack</h5>
+                       <h5>$330</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet </p>
+                      
+                   </div>
+                   <div class="card-footer">
+                    <button class="my_btn">Buy Now</button>
+                   </div>
+               </div>
+               <div class="card">
+                   <img src="img/bags/bag-3.png" class="card-img-top" alt="">
+                   <div class="card-body">
+                       <h5>Black BackPack</h5>
+                       <h5>$350</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet. </p>
+                   </div>
+                   <div class="card-footer">
+                    <button class="my_btn">Buy Now</button>
+                   </div>
+               </div>
+            </div>
+        </div>
+        </section>
+        <section>
+            <div class="container my_bg d-flex justify-content-center align-items-center " id="subscribe">
+                <div> 
+                 <h3>LET'S STAY IN TOUCH</h3>
+                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, amet?</P>
+                <input type="text" class="form-control">
+                <button class="my_btn">Submit</button>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <p class="text-center">&copy; Copyrights 2021 all rights reserved by hablu-programmer</p>
+        </footer>
 </body>
 </html>
+
+
+
